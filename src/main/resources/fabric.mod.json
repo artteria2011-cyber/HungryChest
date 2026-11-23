@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hungry_chest",
+  "version": "${version}",
+  "name": "Hungry Chest",
+  "description": "Chests get hungry, grumble, and sometimes steal a snack.",
+  "authors": ["artteria2011-cyber"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.hungrychest.HungryChestMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
